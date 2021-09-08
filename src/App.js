@@ -1,27 +1,30 @@
-import ExpenseItem from "./components/ExpenseItem";
-import Expenses from "./components/Expenses";
+
+import Expenses from "./components/Expenses/Expenses";
 
 function App() {
-  const expenseDate = new Date(2021, 2, 25);
-  const expenseTitle = 'Car insurance';
-  const expenseAmount = 298.34;
   const expenses = [{
     id: 'e1',
     date: new Date(2021, 2, 25),
     amount: 234.59,
-    title: "Car finance"
+    title: "New TV"
   },
   {
     id: 'e2',
-    date: new Date(2021, 2, 21),
+    date: new Date(2021, 2, 12),
     amount: 134.59,
-    title: "Credit card"
+    title: "Toilet Paper"
   },
   {
     id: 'e3',
     date: new Date(2021, 2, 24),
     amount: 334.59,
-    title: "Bank loan"
+    title: "Car Insuarance"
+  }, 
+  {
+    id: 'e4',
+    date: new Date(2021, 2, 27),
+    amount: 560.75,
+    title: "New Desk (Wooden)"
   }
   ];
 
