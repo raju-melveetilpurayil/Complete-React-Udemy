@@ -1,5 +1,5 @@
 import React from 'react'
-import AddUserForm from './AddUserForm'
+import AddUser from './AddUser'
 
 const User = ({onAddUserHandler}) => {
     const onFormSubmitHandler=user=>{
@@ -7,7 +7,7 @@ const User = ({onAddUserHandler}) => {
     }
     return (
         <>
-            <AddUserForm onFormSubmit={onFormSubmitHandler}></AddUserForm>
+            <AddUser onFormSubmit={onFormSubmitHandler}></AddUser>
         </>
     )
 }
